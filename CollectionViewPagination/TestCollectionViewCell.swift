@@ -13,7 +13,6 @@ class TestCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var simpleView: UIView!
     @IBOutlet weak var availableNow: UILabel!
 
-
     override func prepareForReuse() {
 
     }

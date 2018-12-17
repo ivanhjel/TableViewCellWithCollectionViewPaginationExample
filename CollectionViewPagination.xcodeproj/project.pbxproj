@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1D5AD61FD6AA44003C00E1 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D5AD51FD6AA43003C00E1 /* RoundedView.swift */; };
 		2CDC02701FD5FDA800F7F26F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC026F1FD5FDA800F7F26F /* AppDelegate.swift */; };
 		2CDC02721FD5FDA800F7F26F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC02711FD5FDA800F7F26F /* ViewController.swift */; };
 		2CDC02751FD5FDA800F7F26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC02731FD5FDA800F7F26F /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C1D5AD51FD6AA43003C00E1 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		2CDC026C1FD5FDA800F7F26F /* CollectionViewPagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewPagination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDC026F1FD5FDA800F7F26F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CDC02711FD5FDA800F7F26F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				2CDC026F1FD5FDA800F7F26F /* AppDelegate.swift */,
 				2CDC02711FD5FDA800F7F26F /* ViewController.swift */,
+				2C1D5AD51FD6AA43003C00E1 /* RoundedView.swift */,
 				2CDC02811FD5FF0B00F7F26F /* TestTableViewCell.swift */,
 				2CDC02831FD6006B00F7F26F /* TestCollectionViewCell.swift */,
 				2CDC02731FD5FDA800F7F26F /* Main.storyboard */,
@@ -97,11 +100,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Aboveapps;
 				TargetAttributes = {
 					2CDC026B1FD5FDA800F7F26F = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,6 +149,7 @@
 				2CDC02721FD5FDA800F7F26F /* ViewController.swift in Sources */,
 				2CDC02701FD5FDA800F7F26F /* AppDelegate.swift in Sources */,
 				2CDC02841FD6006B00F7F26F /* TestCollectionViewCell.swift in Sources */,
+				2C1D5AD61FD6AA44003C00E1 /* RoundedView.swift in Sources */,
 				2CDC02821FD5FF0B00F7F26F /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,6 +190,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -192,6 +198,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -242,6 +249,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -249,6 +257,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -289,7 +298,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.aboveapps.CollectionViewPagination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,7 +314,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.aboveapps.CollectionViewPagination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
